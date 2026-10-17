@@ -1,0 +1,33 @@
+baseURL = 'https://www.youyawuya.com/'
+locale = 'zh-CN'
+title = 'YouyaWuya.com'
+theme = 'PaperMod'
+
+[params]
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+  mainSections = ["posts"]
+
+  [params.contact]
+    email = 'info@youyawuya.com'
+    phone = '+36 30488 0053'
+
+[params.homeInfoParams]
+  enabled = true
+
+[params.homeHero]
+  enabled = true
+  eyebrow = "YouyaWuya"
+  title = "有涯 • 无涯"
+  subtitle = "生而有涯，而知无涯"
+  description = '关注 AI、技术、金钱、哲学和其他让我思考的东西'
+[params.homeHero.image]
+  dark = "/images/bdshrbw.png"
+  light = "/images/bdshrbw-inverted.png"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  author = 'author'

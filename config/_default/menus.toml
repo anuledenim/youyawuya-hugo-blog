@@ -1,0 +1,32 @@
+[menus]
+  [[menus.main]]
+    identifier = 'home'
+    name = '主页'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    identifier = 'categories'
+    name = '所有分类'
+    pageRef = '/categories'
+    weight = 20
+
+  [[menus.footer]]
+    identifier = 'terms'
+    name = '通用条款'
+    pageRef = '/terms'
+    weight = 10
+  [[menus.footer]]
+    identifier = 'privacy'
+    name = '隐私政策'
+    pageRef = '/privacy'
+    weight = 20
+  [[menus.footer]]
+    identifier = 'gdpr'
+    name = 'GDPR'
+    pageRef = '/gdpr'
+    weight = 30
+  [[menus.footer]]
+    identifier = 'about'
+    name = '关于'
+    pageRef = '/about'
+    weight = 40

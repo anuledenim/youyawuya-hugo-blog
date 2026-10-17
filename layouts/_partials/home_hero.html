@@ -1,0 +1,43 @@
+{{- $hero := site.Params.homeHero -}}
+
+{{- if $hero.enabled }}
+
+<section class="home-hero">
+  <div class="home-hero-content">
+
+    {{ with $hero.eyebrow }}
+    <div class="home-hero-eyebrow">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ with $hero.title }}
+    <h1 class="home-hero-title">
+      {{ . | markdownify }}
+    </h1>
+    {{ end }}
+
+    {{ with $hero.subtitle }}
+    <div class="home-hero-subtitle">
+      {{ . | markdownify }}
+    </div>
+    {{ end }}
+
+    {{ with $hero.description }}
+    <div class="home-hero-description">
+      {{ . | markdownify }}
+    </div>
+    {{ end }}
+
+  </div>
+
+  {{ with $hero.image }}
+  <div class="home-hero-image">
+    <img class="hero-image-light" src="{{ $hero.image.dark | relURL }}" alt="">
+    <img class="hero-image-dark" src="{{ $hero.image.light | relURL }}" alt="">
+  </div>
+  {{ end }}
+
+</section>
+
+{{- end }}
