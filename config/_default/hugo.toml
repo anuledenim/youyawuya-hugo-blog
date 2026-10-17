@@ -4,7 +4,7 @@ title = 'YouyaWuya.com'
 theme = 'PaperMod'
 
 [params]
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
 

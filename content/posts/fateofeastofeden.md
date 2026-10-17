@@ -1,7 +1,7 @@
 +++
 title = '三部史诗，三种绝境：人类灵魂的终极抉择坐标系'
 date = 2026-10-12
-draft = true
+draft = false
 description = ''
 categories = ["哲学", "文学", "艺术"]
 tags = ["电影", "文学", "哲学"]

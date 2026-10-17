@@ -9,6 +9,16 @@
     name = '所有分类'
     pageRef = '/categories'
     weight = 20
+  [[menus.main]]
+    identifier = 'terms'
+    name = '通用条款'
+    pageRef = '/terms'
+    weight = 30
+  [[menus.main]]
+    identifier = 'about'
+    name = '关于'
+    pageRef = '/about'
+    weight = 40
 
   [[menus.footer]]
     identifier = 'terms'
@@ -16,17 +26,7 @@
     pageRef = '/terms'
     weight = 10
   [[menus.footer]]
-    identifier = 'privacy'
-    name = '隐私政策'
-    pageRef = '/privacy'
-    weight = 20
-  [[menus.footer]]
-    identifier = 'gdpr'
-    name = 'GDPR'
-    pageRef = '/gdpr'
-    weight = 30
-  [[menus.footer]]
     identifier = 'about'
     name = '关于'
     pageRef = '/about'
-    weight = 40
+    weight = 20
